@@ -1,0 +1,39 @@
+{
+  "name": "note-server",
+  "version": "1.0.0",
+  "description": "Nothy app backend api server for nothy client app",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon app.js",
+    "prod": "cross-env NODE_ENV=production nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richy8/notes-todos-server.git"
+  },
+  "keywords": [
+    "nothy",
+    "notes",
+    "todos",
+    "projects"
+  ],
+  "author": "Efemena Elvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richy8/notes-todos-server/issues"
+  },
+  "homepage": "https://github.com/Richy8/notes-todos-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
