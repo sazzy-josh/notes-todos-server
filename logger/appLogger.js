@@ -3,6 +3,7 @@ const { APP_ENV } = require("../config");
 const { createLogger, format, transports } = require("winston");
 const { combine, timestamp, printf } = format;
 
+/* A custom format for the logger. */
 const customFormat = combine(
   timestamp(),
   printf((info) => {
@@ -12,6 +13,7 @@ const customFormat = combine(
   })
 );
 
+/* Creating a transport object with two properties, info and error. */
 const transport = {
   info:
     APP_ENV === "development"

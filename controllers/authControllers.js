@@ -1,6 +1,9 @@
+const url = require("url");
+
 // USER LOGIN CONTROLLER
 const loginUser = (req, res) => {
-  console.log("Voila!!!");
+  console.log(url.parse(req.url, true).query);
+  console.log(req.query);
   res.json(req.body);
 };
 
