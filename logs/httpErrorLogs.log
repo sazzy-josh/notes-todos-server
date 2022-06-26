@@ -1,1 +1,2 @@
-[Wed, 22 Jun 2022 16:19:29 GMT] 'POST /v1/auth/login' 500 1307 'PostmanRuntime/7.29.0'
+[Sun, 26 Jun 2022 11:37:58 GMT] 'POST /v1/auth/loginq' 404 1298 'PostmanRuntime/7.29.0'
+[Sun, 26 Jun 2022 11:39:27 GMT] 'POST /v1/auth/loginq' 404 1298 'PostmanRuntime/7.29.0'

@@ -5,7 +5,7 @@ const { combine, timestamp, printf } = format;
 
 /* A custom format for the logger. */
 const customFormat = combine(
-  timestamp(),
+  timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
   printf((info) => {
     return `[${info.timestamp}] - [${info.level.toUpperCase()}] => ${
       info.message

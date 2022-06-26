@@ -1,10 +1,14 @@
-const url = require("url");
+const {
+  httpResponse: apiStatus,
+  responsePayload: respondWith,
+} = require("../services/httpResponseService");
 
 // USER LOGIN CONTROLLER
 const loginUser = (req, res) => {
-  console.log(url.parse(req.url, true).query);
-  console.log(req.query);
-  res.json(req.body);
+  respondWith(res, apiStatus.success(), {
+    description: "User data has been created successfully!",
+    data: req.body,
+  });
 };
 
 // USER SIGNUP CONTROLLER

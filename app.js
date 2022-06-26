@@ -3,14 +3,18 @@ const app = express();
 
 /* IMPORT ALL MIDDLEWARES MODULES */
 const loadInitialMiddleware = require("./middlewares/initialMiddlewares");
+const loadFinalMiddleware = require("./middlewares/finalMiddlewares");
 const loadAppRoutes = require("./routes");
 const runApp = require("./runApp");
 
-/* Loading the initial middlewares. */
+/* Loading initial middlewares. */
 loadInitialMiddleware(app, express);
 
-/* Loading the routes from the routes folder. */
+/* Loading application routes */
 loadAppRoutes(app);
+
+/* Loading final middlewares. */
+loadFinalMiddleware(app);
 
 /* Starting the application. */
 runApp(app);
