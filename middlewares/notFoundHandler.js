@@ -1,4 +1,4 @@
-const { httpResponse: apiStatus } = require("../services/httpResponseService");
+const { apiStatus } = require("../services/httpResponseService");
 
 const notFoundHandler = (req, res, next, routes) => {
   /* Checking if the path exists in the routes array. */

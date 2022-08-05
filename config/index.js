@@ -14,6 +14,9 @@ const APP_CONFIGS = {
   APP_ENV: process.env.NODE_ENV,
   APP_SECRET: process.env.APP_SECRET,
 
+  EMAIL_USER: process.env.EMAIL_USER,
+  EMAIL_PASS: process.env.EMAIL_PASS,
+
   MONGODB_USER: process.env.MONGODB_USER,
   MONGODB_PASSWORD: process.env.MONGODB_PASSWORD,
   MONGODB_DATABASE: process.env.MONGODB_DATABASE,
@@ -26,6 +29,18 @@ const APP_CONFIGS = {
 
   RATE_LIMIT_REQUEST: 1,
   RATE_LIMIT_REQUEST_PER_SECOND: 1000,
+
+  REDIS_HOST: process.env.REDIS_HOST || "redis",
+  REDIS_PORT: process.env.REDIS_PORT || 6379,
+
+  SALT_ROUND: process.env.SALT_ROUND,
+  TOKEN_LIFE: process.env.TOKEN_LIFE,
+
+  // NON ENV VARIABLES
+  DOMAIN_URL:
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://nothy-app",
 };
 
 module.exports = APP_CONFIGS;

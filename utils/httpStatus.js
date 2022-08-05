@@ -32,6 +32,10 @@ const httpStatus = {
     code: 405,
     message: "API method not allowed!",
   },
+  conflict: {
+    code: 409,
+    message: "Payload conflicts with existing data",
+  },
   unProcessable: {
     code: 422,
     message: "Request body is not processable!",

@@ -1,0 +1,19 @@
+version: '3'
+services:
+  nginx:
+    ports:
+      - "4000:80"
+
+  nothy-server:
+    build: 
+      context: .
+      args:
+        NODE_ENV: development
+    volumes: 
+      - ./:/app
+      - /app/node_modules
+    env_file:
+      - ./development.env
+    environment:
+      - NODE_ENV=development
+    command: npm run dev

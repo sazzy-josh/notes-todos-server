@@ -1,7 +1,7 @@
 const {
   ApiResponse,
-  httpResponse: apiStatus,
-  responsePayload: respondWith,
+  apiStatus,
+  respondWith,
 } = require("../services/httpResponseService");
 const logger = require("../logger/appLogger");
 

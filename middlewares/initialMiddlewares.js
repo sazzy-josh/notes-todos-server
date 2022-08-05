@@ -1,3 +1,4 @@
+const path = require("path");
 const cors = require("cors");
 const rateLimiter = require("express-rate-limit");
 const httpLogger = require("../logger/httpLogger");
@@ -25,10 +26,12 @@ const setupRateLimiterOptions = {
  */
 const loadInitialMiddleware = (app, express) => {
   app.set("trust proxy", true);
+  app.use(express.json());
+
   app.use(cors(setupCORSOptions));
   app.use(rateLimiter(setupRateLimiterOptions));
 
-  app.use(express.json());
+  app.use(express.static(path.join(__dirname, "views")));
   app.use(httpLogger("../logs/httpErrorLogs.log", true));
   app.use(httpLogger("../logs/httpLogs.log"));
 };

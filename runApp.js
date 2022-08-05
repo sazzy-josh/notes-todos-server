@@ -1,5 +1,6 @@
 const { APP_PORT } = require("./config");
-const connectDB = require("./config/connectDB");
+const mongoDB = require("./config/mongoDB");
+const { redisDB } = require("./config/redisDB");
 const logger = require("./logger/appLogger");
 
 /**
@@ -9,7 +10,8 @@ const logger = require("./logger/appLogger");
 const runApp = async (app) => {
   try {
     /* Connecting to the database. */
-    await connectDB();
+    await mongoDB();
+    await redisDB();
 
     /* Listening to the port and logging the message. */
     app.listen(APP_PORT, () =>
