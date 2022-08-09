@@ -5,9 +5,18 @@ const asyncWrapper = (fn) => {
     try {
       await fn(req, res, next);
     } catch (error) {
-      if (error.code == "11000" && error.keyValue.email) {
+      console.log("ERROR MESSAGE", error);
+
+      if (error?.code == "11000" && error?.keyValue?.email) {
         respondWith(res, apiStatus.badRequest(), {
           description: "Email already exist",
+        });
+        return false;
+      }
+
+      if (error?.kind === "ObjectId" && error?.path === "userId") {
+        respondWith(res, apiStatus.badRequest(), {
+          description: "Incorrect user fetch id",
         });
         return false;
       }

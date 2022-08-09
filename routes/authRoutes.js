@@ -1,8 +1,6 @@
 const auth = require("express").Router();
 const authValidator = require("../schemaValidators/authValidator");
 const authMiddleware = require("../middlewares/authMiddlewares");
-
-// CONTROLLERS
 const authController = require("../controllers/authControllers");
 
 /* This is a route that is being created for the signup route. The route is being created using the

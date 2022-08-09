@@ -1,4 +1,5 @@
-const { apiStatus, respondWith } = require("./httpResponseService");
+const { apiStatus } = require("./httpResponseService");
+const path = require("path");
 
 class ValidatorService {
   body_field = "";
@@ -90,7 +91,7 @@ class ValidatorService {
    * @returns The return value is a boolean.
    */
   minLength(min_length) {
-    let is_min_length = this.body_payload.length >= min_length;
+    let is_min_length = this.body_payload?.length >= min_length;
     return this.checkIfValid(
       is_min_length,
       `${this.body_field} is less than ${min_length} characters`
@@ -103,7 +104,7 @@ class ValidatorService {
    * @returns The return value is a boolean.
    */
   maxLength(max_length) {
-    let is_max_length = max_length > this.body_payload.length;
+    let is_max_length = max_length > this.body_payload?.length;
     return this.checkIfValid(
       is_max_length,
       `${this.body_field} is greater than ${max_length} characters`
@@ -137,6 +138,39 @@ class ValidatorService {
       is_valid_count,
       `${this.body_field} should contain exactly ${count} words`
     );
+  }
+
+  fileSize(file_size) {
+    if (this.body_payload) {
+      const body_size = this.body_payload.size;
+      const is_valid_file_size = file_size >= body_size;
+
+      return this.checkIfValid(
+        is_valid_file_size,
+        `${this.body_field} size is greater than ${file_size}`
+      );
+    }
+    return this;
+  }
+
+  /**
+   * It checks if the file type of the file uploaded is within the allowed types
+   * @param [allowed_types] - An array of allowed file types.
+   * @returns The instance of the class
+   */
+  fileType(allowed_types = []) {
+    if (this.body_payload) {
+      const file_type = path.extname(this.body_payload.name);
+      const is_valid_file_type = allowed_types.includes(file_type);
+
+      return this.checkIfValid(
+        is_valid_file_type,
+        `${
+          this.body_field
+        } is not within the range of valid types: ${allowed_types.join(", ")}`
+      );
+    }
+    return this;
   }
 }
 

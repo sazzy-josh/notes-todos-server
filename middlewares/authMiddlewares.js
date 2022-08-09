@@ -3,12 +3,12 @@ const asyncWrapper = require("../utils/asyncWrapper");
 const { apiStatus } = require("../services/httpResponseService");
 const { redisClient } = require("../config/redisDB");
 
-const isGuestUser = asyncWrapper(async (req, res, next) => {
-  /* Checking if the user is a guest user. If the user is a guest user, it will call the next function.
+/* Checking if the user is a guest user. If the user is a guest user, it will call the next function.
 If the user is not a guest user, it will call the next function with an error. */
-  const bearerToken = req.headers["authorization"].split(" ")[1];
+const isGuestUser = asyncWrapper(async (req, res, next) => {
+  const bearerToken = req.headers["authorization"];
 
-  bearerToken === "null"
+  typeof bearerToken === "undefined" || bearerToken === "Bearer null"
     ? next()
     : next(apiStatus.unProcessable("Can't access route when authenticated"));
 });
@@ -22,8 +22,6 @@ const isAuthUser = asyncWrapper(async (req, res, next) => {
   else {
     let token = bearerToken.split(" ")[1];
     let verified_token = await authService.verifyToken(token);
-
-    console.log("VERIFIED", verified_token);
 
     if (["jwt expired", "invalid signature"].includes(verified_token))
       next(apiStatus.forbidden());

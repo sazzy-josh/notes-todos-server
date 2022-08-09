@@ -27,18 +27,21 @@
   "homepage": "https://github.com/Richy8/notes-todos-server#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "cloudinary": "^1.30.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
     "express-list-endpoints": "^6.0.0",
     "express-rate-limit": "^6.4.0",
+    "fs-extra": "^10.1.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.0",
     "morgan": "^1.10.0",
     "nodemailer": "^6.7.7",
     "nodemailer-express-handlebars": "^5.0.0",
     "redis": "^4.2.0",
-    "validator": "^13.7.0",
+    "sharp": "^0.30.7",
     "winston": "^3.7.2"
   },
   "devDependencies": {

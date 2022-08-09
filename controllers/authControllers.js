@@ -7,6 +7,7 @@ const { redisClient } = require("../config/redisDB");
 const authService = require("../services/authService");
 const emailService = require("../services/emailService");
 
+/* Importing the user model from the userModels.js file. */
 const User = require("../models/userModels");
 const asyncWrapper = require("../utils/asyncWrapper");
 
@@ -21,10 +22,21 @@ const signupUser = asyncWrapper(async (req, res, next) => {
   }
 
   /* Creating a new user and generating a token for the user. */
-  const user_data = await User.create({ ...req.body });
+  const user_data = await User.create(req.body);
+  const admin_email = "menaelvisjones@gmail.com";
+
+  /* This is a check to see if the email of the user is the same as the admin email. If it is, then the
+  user role is set to admin. */
+  if (req.body.email === admin_email) {
+    user_data.role = "admin";
+    user_data.save();
+  }
+
+  /* Generating a token for the user. */
   const response_payload = await authService.generateSignedAuthPayload(
     user_data
   );
+
   /* A function that returns a response to the user. */
   respondWith(res, apiStatus.success(), {
     message: "User created successfully",
@@ -46,7 +58,7 @@ const loginUser = asyncWrapper(async (req, res, next) => {
 
   /* A function that returns a response to the user. */
   respondWith(res, apiStatus.success(), {
-    message: "User logged in successfully!",
+    message: "User login was successful",
     data: response_payload,
   });
 });

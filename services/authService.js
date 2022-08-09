@@ -6,7 +6,6 @@ const jwt = require("jsonwebtoken");
 const logger = require("../logger/appLogger");
 const User = require("../models/userModels");
 const { apiStatus } = require("../services/httpResponseService");
-const { redisClient } = require("../config/redisDB");
 const { TOKEN_LIFE, SALT_ROUND, APP_SECRET } = require("../config");
 
 class authService {
@@ -89,6 +88,17 @@ class authService {
     }
   }
 
+  async getCurrentUserId(requestHeaders) {
+    try {
+      const bearerToken = requestHeaders["authorization"]?.split(" ")[1];
+      const verified_token = await this.verifyToken(bearerToken);
+      return verified_token.user_id;
+    } catch (error) {
+      logger.error(error?.message);
+      return error?.message;
+    }
+  }
+
   /**
    * It takes in a user object, signs a token with the user's id and email, and returns an object with
    * the user's full name, email, image, and token
@@ -100,12 +110,14 @@ class authService {
       const token = await this.signToken({
         user_id: user_data._id,
         email: user_data.email,
+        role: user_data?.role,
       });
 
       return {
         fullname: `${user_data?.firstName} ${user_data?.lastName}`,
         email: user_data?.email,
-        image: user_data?.image ?? null,
+        picture: user_data?.getPicture,
+        role: user_data?.role,
         token,
       };
     } catch (error) {
@@ -135,6 +147,28 @@ class authService {
       logger.error(error);
       this.sendResponse("An error while checking email", next, "internal");
     }
+  }
+
+  /**
+   * It returns an object with the user's full name, email, profile picture, role, and the date the user
+   * was created
+   * @param userdata - The user object that is returned from the database.
+   * @returns An object with the following properties:
+   *   fullname: `${userdata?.firstName} ${userdata?.lastName}`,
+   *   email: userdata?.email,
+   *   picture: userdata?.getPicture,
+   *   role: userdata?.role,
+   *   createdAt: userdata?.createdAt,
+   */
+  renderUserPayload(userdata) {
+    return {
+      id: userdata._id,
+      fullname: `${userdata?.firstName} ${userdata?.lastName}`,
+      email: userdata?.email,
+      picture: userdata?.getPicture,
+      role: userdata?.role,
+      createdAt: userdata?.createdAt,
+    };
   }
 
   /**
