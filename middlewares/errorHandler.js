@@ -12,7 +12,7 @@ const errorHandler = (err, req, res, next) => {
   /* Check if error is an instance of ApiResponse, else return an Internal server error */
   return err instanceof ApiResponse
     ? respondWith(res, err)
-    : respondWith(res, apiStatus.internal());
+    : respondWith(res, apiStatus.internal(err?.message));
 };
 
 module.exports = errorHandler;

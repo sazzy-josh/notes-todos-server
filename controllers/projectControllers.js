@@ -11,13 +11,14 @@ const asyncWrapper = require("../utils/asyncWrapper");
  *  This is a controller that handles project creation
  **********************************************************/
 const createProject = asyncWrapper(async (req, res, next) => {
-  let project_data = await Project.create({ ...req.body });
-  project_data.userId = await authService.getCurrentUserId(req.headers);
-  project_data.save();
+  let data = await Project.create({ ...req.body });
+  data.userId = await authService.getCurrentUserId(req.headers);
+  data.save();
 
   /* A function that returns a response to the user. */
-  respondWith(res, apiStatus.success(), {
+  respondWith(res, apiStatus.created(), {
     message: "Project created successfully",
+    data,
   });
 });
 

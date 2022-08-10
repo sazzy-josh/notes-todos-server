@@ -71,6 +71,31 @@ class ValidatorService {
   }
 
   /**
+   * It checks if the body_payload is an array and if it is, it checks if it's empty
+   * @returns The return value of the checkIfValid function.
+   */
+  notEmpty() {
+    if (Array.isArray(this.body_payload)) {
+      let is_not_empty = this.body_payload.length ? true : false;
+      return this.checkIfValid(is_not_empty, `${this.body_field} is empty`);
+    } else
+      return this.checkIfValid(false, `${this.body_field} is not an array`);
+  }
+
+  /**
+   * It checks if the value of the body field is one of the allowed items
+   * @param [allowed_items] - An array of allowed items.
+   * @returns A boolean value
+   */
+  containsOne(allowed_items = []) {
+    const contains_one = allowed_items.includes(this.body_payload);
+    return this.checkIfValid(
+      contains_one,
+      `${this.body_payload} is not a valid ${this.body_field} item`
+    );
+  }
+
+  /**
    * It checks if the body payload is a valid email address
    * @returns The return value is a boolean.
    */
@@ -140,6 +165,11 @@ class ValidatorService {
     );
   }
 
+  /**
+   * It checks if the file size is greater than the specified size
+   * @param file_size - The maximum file size in bytes.
+   * @returns The object itself.
+   */
   fileSize(file_size) {
     if (this.body_payload) {
       const body_size = this.body_payload.size;

@@ -5,7 +5,7 @@ const asyncWrapper = (fn) => {
     try {
       await fn(req, res, next);
     } catch (error) {
-      console.log("ERROR MESSAGE", error);
+      console.log("ERROR MESSAGE", error?.message);
 
       if (error?.code == "11000" && error?.keyValue?.email) {
         respondWith(res, apiStatus.badRequest(), {
@@ -21,7 +21,7 @@ const asyncWrapper = (fn) => {
         return false;
       }
 
-      next(error);
+      next(error?.message);
     }
   };
 };

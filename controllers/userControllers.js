@@ -37,14 +37,20 @@ const updateUser = asyncWrapper(async (req, res, next) => {
 
   if (image) {
     let { public_id, secure_url } = await fileService.fileUpload(image);
-    picture = JSON.stringify({ id: public_id, url: secure_url });
+    picture = { id: public_id, url: secure_url };
     updatePayload.picture = picture;
   }
 
-  let data = await User.findByIdAndUpdate(id, updatePayload, {
-    new: true,
-  });
-  data = authService.renderUserPayload(data);
+  let user = await User.findById(id);
+  if (user.picture?.url && image)
+    await fileService.removeUploadedImageCloudFile(user.picture?.id);
+
+  user.firstName = updatePayload.firstName;
+  user.lastName = updatePayload.lastName;
+  image ? (user.picture = updatePayload.picture) : null;
+  user.save();
+
+  let data = authService.renderUserPayload(user);
 
   /* A function that returns a response to the user. */
   respondWith(res, apiStatus.success(), {
@@ -54,7 +60,7 @@ const updateUser = asyncWrapper(async (req, res, next) => {
 });
 
 /***********************************************************
- *  This is a controller that handles user removal.
+ *  This is a controller that handles user role update
  **********************************************************/
 const updateUserRole = asyncWrapper(async (req, res, next) => {
   const { id } = req.params;

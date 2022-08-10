@@ -20,7 +20,10 @@ const todoSchema = new Schema(
     ],
     category: {
       type: String,
-      enum: ["backlog", "ongoing", "completed", "postponed"],
+      enum: {
+        values: ["backlog", "ongoing", "completed", "postponed"],
+        message: "Enter a valid category",
+      },
       default: "backlog",
     },
     projectId: {

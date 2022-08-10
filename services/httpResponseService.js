@@ -60,7 +60,8 @@ const apiStatus = {
     ApiResponse.renderApiResponse(httpStatus.manyRequest, error),
 
   /* 5** status responses */
-  internal: () => ApiResponse.renderApiResponse(httpStatus.internal),
+  internal: (error) =>
+    ApiResponse.renderApiResponse(httpStatus.internal, error),
 };
 
 const respondWith = (res, responseData, extraData = {}) => {

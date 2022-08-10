@@ -116,7 +116,7 @@ class authService {
       return {
         fullname: `${user_data?.firstName} ${user_data?.lastName}`,
         email: user_data?.email,
-        picture: user_data?.getPicture,
+        picture: user_data?.picture?.url ? user_data?.picture : null,
         role: user_data?.role,
         token,
       };
@@ -156,7 +156,7 @@ class authService {
    * @returns An object with the following properties:
    *   fullname: `${userdata?.firstName} ${userdata?.lastName}`,
    *   email: userdata?.email,
-   *   picture: userdata?.getPicture,
+   *   picture: userdata?.picture,
    *   role: userdata?.role,
    *   createdAt: userdata?.createdAt,
    */
@@ -165,7 +165,7 @@ class authService {
       id: userdata._id,
       fullname: `${userdata?.firstName} ${userdata?.lastName}`,
       email: userdata?.email,
-      picture: userdata?.getPicture,
+      picture: userdata?.picture?.url ? userdata?.picture : null,
       role: userdata?.role,
       createdAt: userdata?.createdAt,
     };

@@ -26,10 +26,11 @@ const userSchema = new Schema(
     password: {
       type: String,
       required: [true, "Password is required"],
+      select: false,
     },
     picture: {
-      type: String,
-      default: null,
+      id: String,
+      url: String,
     },
     role: {
       type: String,
@@ -43,6 +44,7 @@ const userSchema = new Schema(
     archived: {
       type: Boolean,
       default: false,
+      select: false,
     },
     updatedAt: {
       type: Date,
