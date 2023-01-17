@@ -7,7 +7,8 @@ const User = require("../models/userModels");
 
 /* This is a middleware function that validates the user body. */
 const validateUserBody = asyncWrapper(async (req, res, next) => {
-  const { firstName, lastName } = req.body;
+  const { fullName } = req.body;
+  const [firstName, lastName] = fullName.split(" ");
   const imageObj = req?.files?.image;
 
   /* VALIDATION SERVICE LAYER

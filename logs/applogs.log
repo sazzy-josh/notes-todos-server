@@ -1,2 +1,42 @@
-[2022-07-16 10:20:25] - [INFO] => Server is running on port 4000
-[2022-07-16 10:20:31] - [INFO] => Connected to MongoDB
+[2022-11-15 00:12:23] - [INFO] => Server is running on port undefined
+[2022-11-15 00:12:23] - [ERROR] => RedisDB connection error => Error: getaddrinfo ENOTFOUND redis
+[2022-11-15 00:12:25] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:27] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:32] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:34] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:36] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:38] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:40] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:42] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:43] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:45] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:47] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:49] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:13:01] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:13:03] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:16:33] - [ERROR] => MongoDB connection error => Error: queryTxt ETIMEOUT cluster0.urrgt.mongodb.net
+[2022-11-15 00:16:35] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:16:35] - [ERROR] => MongoDB connection error => Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-11-15 00:16:37] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:10] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:12] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:14] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:16] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:18] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:20] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:22] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:24] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:25] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:27] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:29] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:31] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:03] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:05] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:06] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:08] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:10] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:12] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:17] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:19] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:20] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:22] - [ERROR] => Restarting Mongo server

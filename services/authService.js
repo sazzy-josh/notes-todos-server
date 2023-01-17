@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 const logger = require("../logger/appLogger");
 const User = require("../models/userModels");
 const { apiStatus } = require("../services/httpResponseService");
-const { TOKEN_LIFE, SALT_ROUND, APP_SECRET } = require("../config");
+const { TOKEN_LIFE, SALT_ROUND, APP_SECRET, PER_PAGE } = require("../config");
 
 class authService {
   async checkEmailExist(email, boolean_type = true) {
@@ -168,6 +168,18 @@ class authService {
       picture: userdata?.picture?.url ? userdata?.picture : null,
       role: userdata?.role,
       createdAt: userdata?.createdAt,
+    };
+  }
+
+  renderPaginatedPayload(data, { total, page }) {
+    return {
+      data,
+      pagination: {
+        total,
+        page: +page,
+        per_page: PER_PAGE,
+        pages: Math.ceil(total / PER_PAGE),
+      },
     };
   }
 

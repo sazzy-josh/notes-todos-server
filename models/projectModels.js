@@ -28,11 +28,31 @@ const projectSchema = new Schema(
     createdAt: {
       type: Date,
       immutable: true,
-      default: new Date(),
+      default: () => new Date(),
     },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+    versionKey: false,
+    selectPopulatedPaths: false,
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true },
+  }
 );
+
+projectSchema.virtual("todos", {
+  ref: "Todo",
+  localField: "_id",
+  foreignField: "projectId",
+  count: true,
+});
+
+projectSchema.virtual("notes", {
+  ref: "Note",
+  localField: "_id",
+  foreignField: "projectId",
+  count: true,
+});
 
 const Project = model("Project", projectSchema);
 

@@ -31,6 +31,8 @@ const APP_CONFIGS = {
       ? "[:date[web]] ':method :url' :status :res[content-length] ':user-agent'"
       : ":remote-addr - :remote-user [:date[web]] ':method :url HTTP/:http-version' :status :res[content-length] ':referrer' ':user-agent'",
 
+  PER_PAGE: 5,
+
   RATE_LIMIT_REQUEST: 1,
   RATE_LIMIT_REQUEST_PER_SECOND: 1000,
 

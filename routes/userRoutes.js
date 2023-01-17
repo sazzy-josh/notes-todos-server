@@ -9,6 +9,12 @@ user.use(authMiddleware.isAuthUser);
 /* This is a route that is used to fetch all the users. */
 user.route("/").get(userValidator.validateAdminUser, userController.fetchUsers);
 
+/* This is a route that is used to fetch the dashboard summary of a user. */
+user.route("/dashboard-summary").get(userController.fetchDashboardSummary);
+
+/* This is a route that is used to fetch a single user. */
+user.route("/single/:id?").get(userController.fetchSingleUser);
+
 /* This is a route that is used to update the role of a user. */
 user
   .route("/role/:id")
@@ -21,12 +27,8 @@ user
 
 /* This is a route that is used to update the details of a user and also remove a user. */
 user
-  .route("/:id")
-  .put(
-    userValidator.validateUserId,
-    userValidator.validateUserBody,
-    userController.updateUser
-  )
+  .route("/:id?")
+  .put(userValidator.validateUserBody, userController.updateUser)
   .delete(
     userValidator.validateAdminUser,
     userValidator.validateUserId,

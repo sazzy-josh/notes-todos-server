@@ -18,6 +18,13 @@ const noteSchema = new Schema(
         color: String,
       },
     ],
+    theme: {
+      type: String,
+      enum: {
+        values: ["red", "green", "blue", "brown"],
+        message: "Enter a valid theme color",
+      },
+    },
     projectId: {
       type: Schema.Types.ObjectId,
       ref: "Project",
@@ -36,7 +43,7 @@ const noteSchema = new Schema(
       default: new Date(),
     },
   },
-  { timestamps: true }
+  { timestamps: true, toJSON: { virtuals: true }, toObject: { virtuals: true } }
 );
 
 const Note = model("Note", noteSchema);

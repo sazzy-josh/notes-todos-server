@@ -1,489 +1,255 @@
-[2022-06-30 09:36:22] - [ERROR] => MongoDB connection error => Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.urrgt.mongodb.net
-[2022-06-30 10:43:44] - [ERROR] => httpResponse is not defined
-[2022-06-30 10:44:18] - [ERROR] => Cannot read property 'error' of undefined
-[2022-06-30 10:45:23] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-06-30 10:48:43] - [ERROR] => Cannot read property 'error_message' of undefined
-[2022-06-30 11:16:44] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-06-30 11:19:15] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-06-30 11:19:41] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-06-30 11:20:11] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-06-30 11:20:41] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-06-30 11:29:15] - [ERROR] => Cannot read property 'length' of null
-[2022-06-30 12:30:24] - [ERROR] => Validator is not defined
-[2022-06-30 22:19:46] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-06-30 22:26:44] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-06-30 22:27:02] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-07-01 01:38:52] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-07-01 01:50:12] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-07-01 01:54:19] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-07-01 01:59:34] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-07-01 02:17:27] - [ERROR] => MongoDB connection error => MongoNetworkTimeoutError: connection timed out
-[2022-07-01 12:45:02] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-07-01 12:45:30] - [ERROR] => Cannot set headers after they are sent to the client
-[2022-07-01 12:46:09] - [ERROR] => verify.body(...).isRequired(...).isEmail is not a function
-[2022-07-01 12:59:27] - [ERROR] => verify.body(...).isRequired(...).isEmail is not a function
-[2022-07-01 23:49:33] - [ERROR] => MongoDB connection error => Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.urrgt.mongodb.net
-[2022-07-01 23:50:01] - [ERROR] => MongoDB connection error => Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.urrgt.mongodb.net
-[2022-07-01 23:50:55] - [ERROR] => MongoDB connection error => Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.urrgt.mongodb.net
-[2022-07-01 23:51:04] - [ERROR] => MongoDB connection error => Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.urrgt.mongodb.net
-[2022-07-02 09:36:49] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-07-02 10:01:39] - [ERROR] => MongoDB connection error => MongoNetworkError: connection 1 to 34.233.9.97:27017 closed
-[2022-07-02 10:43:44] - [ERROR] => Cannot read property 'toTrim' of undefined
-[2022-07-02 17:35:27] - [ERROR] => Expected "payload" to be a plain object.
-[2022-07-02 21:22:52] - [ERROR] => awaitauthService is not defined
-[2022-07-02 21:27:39] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: connection timed out
-[2022-07-02 22:32:42] - [ERROR] => err is not defined
-[2022-07-03 23:00:37] - [ERROR] => [next] is not a function
-[2022-07-03 23:01:40] - [ERROR] => [next] is not a function
-[2022-07-03 23:02:03] - [ERROR] => Bad request!
-[2022-07-03 23:02:38] - [ERROR] => Bad request!
-[2022-07-03 23:03:21] - [ERROR] => Bad request!
-[2022-07-03 23:06:02] - [ERROR] => Bad request!
-[2022-07-03 23:09:03] - [ERROR] => Error: Bad request!
-[2022-07-03 23:13:50] - [ERROR] => Bad request!
-[2022-07-03 23:23:09] - [ERROR] => Bad request!
-[2022-07-03 23:23:31] - [ERROR] => Bad request!
-[2022-07-03 23:37:10] - [ERROR] => email is not defined
-[2022-07-03 23:37:51] - [ERROR] => Bad request!
-[2022-07-03 23:38:32] - [ERROR] => Bad request!
-[2022-07-03 23:41:42] - [ERROR] => Bad request!
-[2022-07-03 23:49:36] - [ERROR] => Bad request!
-[2022-07-03 23:52:08] - [ERROR] => Error: Bad request!
-[2022-07-04 00:12:36] - [ERROR] => Bad request!
-[2022-07-04 00:12:55] - [ERROR] => Bad request!
-[2022-07-04 00:19:32] - [ERROR] => Bad request!
-[2022-07-04 00:30:48] - [ERROR] => password is not defined
-[2022-07-04 00:32:48] - [ERROR] => Payload conflicts with existing data
-[2022-07-05 14:47:35] - [ERROR] => res.send is not a function
-[2022-07-05 14:47:36] - [ERROR] => API path not found!
-[2022-07-05 14:48:12] - [ERROR] => API path not found!
-[2022-07-05 14:48:26] - [ERROR] => res.send is not a function
-[2022-07-05 14:48:31] - [ERROR] => res.send is not a function
-[2022-07-14 06:59:55] - [ERROR] => API path not found!
-[2022-07-16 00:33:59] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
-[2022-07-16 00:37:20] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
-[2022-07-16 00:38:03] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
-[2022-07-16 00:39:21] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
-[2022-07-16 00:43:26] - [ERROR] => MongoDB connection error => MongoNetworkTimeoutError: connection timed out
-[2022-07-16 09:59:06] - [ERROR] => MongoDB connection error => MongoNetworkTimeoutError: connection timed out
-[2022-07-16 10:00:49] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
-[2022-07-16 10:01:07] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
-[2022-07-16 10:03:34] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
-[2022-07-16 10:08:07] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
-[2022-07-16 10:08:28] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
-[2022-07-23 13:53:14] - [ERROR] => Payload conflicts with existing data
-[2022-07-24 14:15:50] - [ERROR] => Payload conflicts with existing data
-[2022-07-24 15:29:37] - [ERROR] => Payload conflicts with existing data
-[2022-07-24 15:29:43] - [ERROR] => ENOENT: no such file or directory, open '/templates/passwordReset.handlebars'
-[2022-07-24 15:29:43] - [ERROR] => next is not a function
-[2022-07-24 15:32:14] - [ERROR] => ENOENT: no such file or directory, open '/app/services/templates/passwordReset.handlebars'
-[2022-07-24 15:32:14] - [ERROR] => next is not a function
-[2022-07-24 15:41:48] - [ERROR] => ENOENT: no such file or directory, open '/app/services/views/passwordReset.handlebars'
-[2022-07-24 15:41:48] - [ERROR] => next is not a function
-[2022-07-24 15:42:55] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 15:42:55] - [ERROR] => next is not a function
-[2022-07-24 15:44:10] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 15:46:32] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 15:46:32] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 15:46:59] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 15:46:59] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 15:48:14] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 15:48:14] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 15:58:00] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 15:58:00] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 16:04:44] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 16:04:44] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 16:07:03] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 16:07:03] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 16:07:47] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 16:07:47] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 16:08:21] - [ERROR] => Found non-callable @@iterator
-[2022-07-24 16:09:19] - [ERROR] => Found non-callable @@iterator
-[2022-07-24 16:09:36] - [ERROR] => Found non-callable @@iterator
-[2022-07-24 16:11:18] - [ERROR] => Found non-callable @@iterator
-[2022-07-24 16:11:46] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 16:11:46] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 16:12:52] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 16:12:52] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 16:15:16] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 16:15:16] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 16:18:25] - [ERROR] => The "path" argument must be of type string. Received undefined
-[2022-07-24 16:18:25] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 20:27:13] - [ERROR] => The "path" argument must be of type string. Received undefined
-[2022-07-24 20:27:13] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 20:28:12] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 20:28:12] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 20:28:39] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 20:28:39] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 20:30:25] - [ERROR] => ENOENT: no such file or directory, open '/views/passwordReset.handlebars'
-[2022-07-24 20:30:25] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 20:31:19] - [ERROR] => ENOENT: no such file or directory, open '/app/views/passwordReset.handlebars'
-[2022-07-24 20:31:19] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 20:35:46] - [ERROR] => The "path" argument must be of type string. Received undefined
-[2022-07-24 20:35:46] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 20:39:19] - [ERROR] => The "path" argument must be of type string. Received undefined
-[2022-07-24 20:39:19] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 20:40:42] - [ERROR] => The "path" argument must be of type string. Received undefined
-[2022-07-24 20:40:42] - [ERROR] => () => ApiResponse.renderApiResponse(httpStatus.internal)
-[2022-07-24 20:42:19] - [ERROR] => The "path" argument must be of type string. Received undefined
-[2022-07-24 20:42:19] - [ERROR] => Internal server error!
-[2022-07-24 20:44:22] - [ERROR] => The "path" argument must be of type string. Received undefined
-[2022-07-24 20:44:22] - [ERROR] => Internal server error!
-[2022-07-24 20:45:59] - [ERROR] => ENOENT: no such file or directory, open '/app/views/passwordReset.handlebars'
-[2022-07-24 20:45:59] - [ERROR] => Internal server error!
-[2022-07-24 20:46:30] - [ERROR] => ENOENT: no such file or directory, open '/app/views/passwordReset.handlebars'
-[2022-07-24 20:46:30] - [ERROR] => Internal server error!
-[2022-07-24 20:49:38] - [ERROR] => ENOENT: no such file or directory, open '/app/services/views/passwordReset.handlebars'
-[2022-07-24 20:49:38] - [ERROR] => Internal server error!
-[2022-07-24 20:50:54] - [ERROR] => ENOENT: no such file or directory, open '/app/services/views/reset.handlebars'
-[2022-07-24 20:50:54] - [ERROR] => Internal server error!
-[2022-07-25 06:35:37] - [ERROR] => ENOENT: no such file or directory, open '/app/main.handlebars'
-[2022-07-25 06:35:37] - [ERROR] => Internal server error!
-[2022-07-25 06:38:04] - [ERROR] => ENOENT: no such file or directory, open '/app/main.handlebars'
-[2022-07-25 06:38:04] - [ERROR] => Internal server error!
-[2022-07-25 06:42:46] - [ERROR] => ENOENT: no such file or directory, open '/app/main.handlebars'
-[2022-07-25 06:42:46] - [ERROR] => Internal server error!
-[2022-07-25 06:43:41] - [ERROR] => ENOENT: no such file or directory, open '/app/main.handlebars'
-[2022-07-25 06:43:41] - [ERROR] => Internal server error!
-[2022-07-25 06:44:24] - [ERROR] => ENOENT: no such file or directory, open '/views/reset.handlebars'
-[2022-07-25 06:44:24] - [ERROR] => Internal server error!
-[2022-07-25 06:44:59] - [ERROR] => ENOENT: no such file or directory, open '/app/services/views/reset.handlebars'
-[2022-07-25 06:44:59] - [ERROR] => Internal server error!
-[2022-07-25 06:49:38] - [ERROR] => ENOENT: no such file or directory, open '/app/services/views/reset.handlebars'
-[2022-07-25 06:49:38] - [ERROR] => Internal server error!
-[2022-07-25 06:50:43] - [ERROR] => ENOENT: no such file or directory, open '/app/main.handlebars'
-[2022-07-25 06:50:43] - [ERROR] => Internal server error!
-[2022-07-25 06:52:28] - [ERROR] => ENOENT: no such file or directory, open '/views/reset.handlebars'
-[2022-07-25 06:52:28] - [ERROR] => Internal server error!
-[2022-07-25 06:53:20] - [ERROR] => ENOENT: no such file or directory, open '/app/main.handlebars'
-[2022-07-25 06:53:20] - [ERROR] => Internal server error!
-[2022-07-25 06:53:57] - [ERROR] => ENOENT: no such file or directory, open '/app/app/views/reset.handlebars'
-[2022-07-25 06:53:57] - [ERROR] => Internal server error!
-[2022-07-25 06:54:35] - [ERROR] => ENOENT: no such file or directory, open '/app/main.handlebars'
-[2022-07-25 06:54:35] - [ERROR] => Internal server error!
-[2022-07-25 06:58:29] - [ERROR] => ENOENT: no such file or directory, open '/app/servicesviews/reset.handlebars'
-[2022-07-25 06:58:29] - [ERROR] => Internal server error!
-[2022-07-25 06:58:56] - [ERROR] => ENOENT: no such file or directory, open '/app/services../views/reset.handlebars'
-[2022-07-25 06:58:56] - [ERROR] => Internal server error!
-[2022-07-25 07:03:35] - [ERROR] => ENOENT: no such file or directory, open '/app/services../views/reset.handlebars'
-[2022-07-25 07:03:35] - [ERROR] => Internal server error!
-[2022-07-25 07:04:28] - [ERROR] => ENOENT: no such file or directory, open '/app/services../views/reset.handlebars'
-[2022-07-25 07:04:28] - [ERROR] => Internal server error!
-[2022-07-25 07:05:13] - [ERROR] => ENOENT: no such file or directory, open '/app/services../views/reset.handlebars'
-[2022-07-25 07:05:13] - [ERROR] => Internal server error!
-[2022-07-25 07:07:02] - [ERROR] => ENOENT: no such file or directory, open '/app/main.handlebars'
-[2022-07-25 07:07:02] - [ERROR] => Internal server error!
-[2022-07-25 08:10:23] - [ERROR] => Payload conflicts with existing data
-[2022-07-25 11:49:42] - [ERROR] => Bad request!
-[2022-07-25 11:49:55] - [ERROR] => Bad request!
-[2022-07-25 11:51:13] - [ERROR] => Bad request!
-[2022-07-25 11:51:18] - [ERROR] => Bad request!
-[2022-07-25 11:51:44] - [ERROR] => API path not found!
-[2022-07-25 11:51:53] - [ERROR] => Bad request!
-[2022-07-27 23:38:51] - [ERROR] => Bad request!
-[2022-07-27 23:39:10] - [ERROR] => jwt expired
-[2022-07-27 23:42:06] - [ERROR] => jwt expired
-[2022-07-27 23:47:53] - [ERROR] => jwt expired
-[2022-07-27 23:49:05] - [ERROR] => jwt expired
-[2022-07-27 23:50:22] - [ERROR] => jwt expired
-[2022-07-27 23:51:03] - [ERROR] => jwt expired
-[2022-07-27 23:51:24] - [ERROR] => jwt expired
-[2022-07-27 23:58:11] - [ERROR] => jwt expired
-[2022-07-27 23:59:03] - [ERROR] => jwt expired
-[2022-07-28 00:01:48] - [ERROR] => jwt expired
-[2022-07-28 00:02:16] - [ERROR] => jwt expired
-[2022-07-28 06:04:59] - [ERROR] => jwt expired
-[2022-07-28 06:06:13] - [ERROR] => user_payload.save is not a function
-[2022-07-28 06:11:08] - [ERROR] => jwt expired
-[2022-07-28 06:12:07] - [ERROR] => User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
-[2022-07-28 06:21:01] - [ERROR] => jwt expired
-[2022-08-02 02:55:11] - [ERROR] => Request body is not processable!
-[2022-08-02 03:15:33] - [ERROR] => MongoDB connection error => MongoNetworkError: connection 1 to 34.233.9.97:27017 closed
-[2022-08-02 07:47:01] - [ERROR] => Cannot read property 'split' of undefined
-[2022-08-02 07:48:29] - [ERROR] => Cannot read property 'split' of undefined
-[2022-08-02 07:53:26] - [ERROR] => Cannot read property 'split' of undefined
-[2022-08-02 07:58:33] - [ERROR] => Unauthorized request!
-[2022-08-02 07:59:12] - [ERROR] => Request body is not processable!
-[2022-08-02 07:59:52] - [ERROR] => invalid signature
-[2022-08-02 08:02:00] - [ERROR] => invalid signature
-[2022-08-02 08:04:32] - [ERROR] => invalid signature
-[2022-08-02 08:04:32] - [ERROR] => Expired/Forbidden request!
-[2022-08-02 08:07:31] - [ERROR] => jwt expired
-[2022-08-02 08:07:31] - [ERROR] => Expired/Forbidden request!
-[2022-08-02 08:08:50] - [ERROR] => jwt expired
-[2022-08-02 08:08:50] - [ERROR] => Expired/Forbidden request!
-[2022-08-02 08:26:03] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-08-02 08:26:59] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-08-02 09:28:28] - [ERROR] => redisDB.set is not a function
-[2022-08-02 09:30:44] - [ERROR] => An error occured while starting the app => TypeError: redisDB is not a function
-[2022-08-02 09:41:16] - [ERROR] => redisClient.setex is not a function
-[2022-08-02 09:46:39] - [ERROR] => redisClient.setex is not a function
-[2022-08-02 09:47:10] - [ERROR] => redisClient.setex is not a function
-[2022-08-03 04:31:21] - [ERROR] => jwt expired
-[2022-08-03 04:31:21] - [ERROR] => Expired/Forbidden request!
-[2022-08-03 04:32:31] - [ERROR] => jwt expired
-[2022-08-03 04:32:31] - [ERROR] => Expired/Forbidden request!
-[2022-08-03 07:50:17] - [ERROR] => invalid token
-[2022-08-03 07:51:29] - [ERROR] => invalid token
-[2022-08-03 07:52:01] - [ERROR] => jwt expired
-[2022-08-03 07:52:01] - [ERROR] => Expired/Forbidden request!
-[2022-08-03 07:52:29] - [ERROR] => jwt expired
-[2022-08-03 07:52:29] - [ERROR] => Expired/Forbidden request!
-[2022-08-03 07:57:08] - [ERROR] => jwt expired
-[2022-08-03 07:57:08] - [ERROR] => Expired/Forbidden request!
-[2022-08-03 07:57:33] - [ERROR] => Unauthorized request!
-[2022-08-03 07:58:30] - [ERROR] => Unauthorized request!
-[2022-08-03 07:58:53] - [ERROR] => jwt expired
-[2022-08-03 07:58:53] - [ERROR] => Expired/Forbidden request!
-[2022-08-03 08:00:58] - [ERROR] => Unauthorized request!
-[2022-08-03 08:01:27] - [ERROR] => Unauthorized request!
-[2022-08-03 08:06:25] - [ERROR] => Invalid argument type
-[2022-08-03 08:07:39] - [ERROR] => jwt expired
-[2022-08-03 08:07:39] - [ERROR] => Expired/Forbidden request!
-[2022-08-03 08:09:18] - [ERROR] => Unauthorized request!
-[2022-08-03 08:09:55] - [ERROR] => jwt expired
-[2022-08-03 08:09:55] - [ERROR] => Expired/Forbidden request!
-[2022-08-03 08:15:37] - [ERROR] => Unauthorized request!
-[2022-08-03 08:15:44] - [ERROR] => Unauthorized request!
-[2022-08-03 08:15:51] - [ERROR] => Unauthorized request!
-[2022-08-03 08:16:05] - [ERROR] => Unauthorized request!
-[2022-08-03 08:19:43] - [ERROR] => Unauthorized request!
-[2022-08-03 08:24:40] - [ERROR] => Unauthorized request!
-[2022-08-03 16:26:50] - [ERROR] => Unauthorized request!
-[2022-08-03 21:49:54] - [ERROR] => API path not found!
-[2022-08-03 21:50:45] - [ERROR] => Request body is not processable!
-[2022-08-03 21:53:04] - [ERROR] => Request body is not processable!
-[2022-08-03 21:54:45] - [ERROR] => Request body is not processable!
-[2022-08-03 21:55:13] - [ERROR] => Request body is not processable!
-[2022-08-03 21:55:59] - [ERROR] => Request body is not processable!
-[2022-08-03 21:56:59] - [ERROR] => Request body is not processable!
-[2022-08-03 21:58:18] - [ERROR] => Request body is not processable!
-[2022-08-03 21:59:35] - [ERROR] => MongoDB connection error => MongoNetworkTimeoutError: connection timed out
-[2022-08-03 22:00:03] - [ERROR] => Payload conflicts with existing data
-[2022-08-03 22:00:47] - [ERROR] => Payload conflicts with existing data
-[2022-08-04 20:17:44] - [ERROR] => Unauthorized request!
-[2022-08-04 20:17:44] - [ERROR] => Unauthorized request!
-[2022-08-04 20:21:38] - [ERROR] => Unauthorized request!
-[2022-08-04 20:21:44] - [ERROR] => Unauthorized request!
-[2022-08-04 20:21:44] - [ERROR] => Unauthorized request!
-[2022-08-04 20:22:15] - [ERROR] => Unauthorized request!
-[2022-08-04 20:22:21] - [ERROR] => Unauthorized request!
-[2022-08-04 20:22:25] - [ERROR] => Unauthorized request!
-[2022-08-04 20:24:51] - [ERROR] => Unauthorized request!
-[2022-08-04 20:25:04] - [ERROR] => Unauthorized request!
-[2022-08-04 20:25:43] - [ERROR] => Unauthorized request!
-[2022-08-04 20:26:16] - [ERROR] => Unauthorized request!
-[2022-08-04 23:14:08] - [ERROR] => Unauthorized request!
-[2022-08-04 23:14:09] - [ERROR] => Unauthorized request!
-[2022-08-04 23:14:19] - [ERROR] => Unauthorized request!
-[2022-08-04 23:14:19] - [ERROR] => Unauthorized request!
-[2022-08-04 23:14:25] - [ERROR] => Unauthorized request!
-[2022-08-04 23:15:20] - [ERROR] => Unauthorized request!
-[2022-08-04 23:19:04] - [ERROR] => Unauthorized request!
-[2022-08-05 08:52:16] - [ERROR] => Unauthorized request!
-[2022-08-05 08:52:16] - [ERROR] => Unauthorized request!
-[2022-08-05 08:52:27] - [ERROR] => Unauthorized request!
-[2022-08-05 08:52:27] - [ERROR] => Unauthorized request!
-[2022-08-05 08:52:29] - [ERROR] => Unauthorized request!
-[2022-08-05 09:11:05] - [ERROR] => Unauthorized request!
-[2022-08-05 09:11:05] - [ERROR] => Unauthorized request!
-[2022-08-05 09:24:11] - [ERROR] => Unauthorized request!
-[2022-08-05 09:24:11] - [ERROR] => Unauthorized request!
-[2022-08-05 09:25:05] - [ERROR] => Unauthorized request!
-[2022-08-05 09:25:05] - [ERROR] => Unauthorized request!
-[2022-08-05 09:25:13] - [ERROR] => Unauthorized request!
-[2022-08-05 09:43:51] - [ERROR] => Unauthorized request!
-[2022-08-05 09:43:51] - [ERROR] => Unauthorized request!
-[2022-08-05 09:48:01] - [ERROR] => Unauthorized request!
-[2022-08-05 09:48:01] - [ERROR] => Unauthorized request!
-[2022-08-05 09:52:57] - [ERROR] => Unauthorized request!
-[2022-08-05 09:52:57] - [ERROR] => Unauthorized request!
-[2022-08-05 09:53:12] - [ERROR] => Unauthorized request!
-[2022-08-05 09:53:13] - [ERROR] => Unauthorized request!
-[2022-08-05 09:58:21] - [ERROR] => Unauthorized request!
-[2022-08-05 09:59:08] - [ERROR] => Unauthorized request!
-[2022-08-05 13:38:26] - [ERROR] => Cannot read property 'split' of undefined
-[2022-08-05 13:39:37] - [ERROR] => Request body is not processable!
-[2022-08-05 13:41:22] - [ERROR] => Cannot read property 'split' of undefined
-[2022-08-05 13:43:19] - [ERROR] => Request body is not processable!
-[2022-08-05 14:59:50] - [ERROR] => Request body is not processable!
-[2022-08-05 15:00:49] - [ERROR] => Request body is not processable!
-[2022-08-05 15:01:37] - [ERROR] => Request body is not processable!
-[2022-08-05 15:04:21] - [ERROR] => Unauthorized request!
-[2022-08-05 17:18:17] - [ERROR] => Unauthorized request!
-[2022-08-05 18:18:32] - [ERROR] => Unauthorized request!
-[2022-08-05 18:30:27] - [ERROR] => Unauthorized request!
-[2022-08-05 18:31:18] - [ERROR] => Unauthorized request!
-[2022-08-05 18:31:28] - [ERROR] => Unauthorized request!
-[2022-08-05 18:34:44] - [ERROR] => Unauthorized request!
-[2022-08-05 18:41:13] - [ERROR] => Unauthorized request!
-[2022-08-05 18:46:16] - [ERROR] => Unauthorized request!
-[2022-08-05 19:09:14] - [ERROR] => API path not found!
-[2022-08-05 22:42:24] - [ERROR] => Unauthorized request!
-[2022-08-06 02:02:19] - [ERROR] => Unauthorized request!
-[2022-08-06 02:13:16] - [ERROR] => Unauthorized request!
-[2022-08-06 02:23:53] - [ERROR] => Unauthorized request!
-[2022-08-06 02:29:14] - [ERROR] => Unauthorized request!
-[2022-08-06 02:38:05] - [ERROR] => Unauthorized request!
-[2022-08-06 02:41:57] - [ERROR] => Unauthorized request!
-[2022-08-06 02:43:24] - [ERROR] => Unauthorized request!
-[2022-08-06 03:30:28] - [ERROR] => API path not found!
-[2022-08-06 03:35:46] - [ERROR] => Unauthorized request!
-[2022-08-06 03:35:57] - [ERROR] => Unauthorized request!
-[2022-08-06 03:51:04] - [ERROR] => Unauthorized request!
-[2022-08-06 03:51:58] - [ERROR] => Unauthorized request!
-[2022-08-06 04:41:46] - [ERROR] => Unauthorized request!
-[2022-08-06 04:45:31] - [ERROR] => Unauthorized request!
-[2022-08-06 05:13:34] - [ERROR] => API path not found!
-[2022-08-06 05:16:26] - [ERROR] => API path not found!
-[2022-08-06 05:16:32] - [ERROR] => API path not found!
-[2022-08-06 05:17:37] - [ERROR] => API path not found!
-[2022-08-06 05:46:45] - [ERROR] => Payload conflicts with existing data
-[2022-08-06 09:57:44] - [ERROR] => Payload conflicts with existing data
-[2022-08-06 11:46:19] - [ERROR] => API path not found!
-[2022-08-06 11:53:08] - [ERROR] => API path not found!
-[2022-08-06 12:21:04] - [ERROR] => API path not found!
-[2022-08-06 12:21:32] - [ERROR] => API path not found!
-[2022-08-06 12:22:25] - [ERROR] => API path not found!
-[2022-08-06 12:22:46] - [ERROR] => API path not found!
-[2022-08-06 12:23:01] - [ERROR] => API path not found!
-[2022-08-06 13:12:49] - [ERROR] => API path not found!
-[2022-08-06 13:14:24] - [ERROR] => API path not found!
-[2022-08-06 13:19:03] - [ERROR] => API path not found!
-[2022-08-06 13:19:18] - [ERROR] => API path not found!
-[2022-08-06 13:46:24] - [ERROR] => API path not found!
-[2022-08-06 13:46:39] - [ERROR] => API path not found!
-[2022-08-06 13:50:41] - [ERROR] => API path not found!
-[2022-08-06 13:50:56] - [ERROR] => API path not found!
-[2022-08-06 13:51:06] - [ERROR] => API path not found!
-[2022-08-06 14:12:22] - [ERROR] => API path not found!
-[2022-08-06 14:23:46] - [ERROR] => API path not found!
-[2022-08-06 14:25:13] - [ERROR] => API path not found!
-[2022-08-06 14:25:49] - [ERROR] => API path not found!
-[2022-08-06 14:27:50] - [ERROR] => API path not found!
-[2022-08-06 14:28:39] - [ERROR] => API path not found!
-[2022-08-06 14:28:48] - [ERROR] => API path not found!
-[2022-08-06 14:31:11] - [ERROR] => API path not found!
-[2022-08-06 14:32:02] - [ERROR] => API path not found!
-[2022-08-06 14:33:16] - [ERROR] => API path not found!
-[2022-08-06 14:34:12] - [ERROR] => API path not found!
-[2022-08-06 14:34:24] - [ERROR] => API path not found!
-[2022-08-06 16:52:49] - [ERROR] => Bad request!
-[2022-08-06 16:59:31] - [ERROR] => API path not found!
-[2022-08-06 16:59:33] - [ERROR] => API path not found!
-[2022-08-06 17:05:06] - [ERROR] => API path not found!
-[2022-08-06 21:08:04] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-08-06 21:08:48] - [ERROR] => API path not found!
-[2022-08-06 21:09:13] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-08-06 21:10:22] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-08-06 21:11:44] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-08-07 13:40:47] - [ERROR] => API path not found!
-[2022-08-07 15:52:15] - [ERROR] => Unauthorized request!
-[2022-08-07 15:53:02] - [ERROR] => Cannot read property 'length' of undefined
-[2022-08-07 15:55:03] - [ERROR] => Cannot read property 'length' of undefined
-[2022-08-07 15:56:50] - [ERROR] => Bad request!
-[2022-08-07 15:57:43] - [ERROR] => response_payload is not defined
-[2022-08-07 16:14:35] - [ERROR] => req is not defined
-[2022-08-07 16:18:51] - [ERROR] => verifyToken is not defined
-[2022-08-07 16:52:23] - [ERROR] => userId is not defined
-[2022-08-07 16:55:20] - [ERROR] => Cast to ObjectId failed for value "62c0a216060072fe62dc788d1" (type string) at path "userId" for model "Project"
-[2022-08-07 16:56:07] - [ERROR] => Cast to ObjectId failed for value "62c0a216060072fe62dc788d1aa" (type string) at path "userId" for model "Project"
-[2022-08-07 16:57:05] - [ERROR] => Cast to ObjectId failed for value "62c0a216060072fe62dc788d1aa" (type string) at path "userId" for model "Project"
-[2022-08-07 17:41:50] - [ERROR] => jwt expired
-[2022-08-07 17:41:50] - [ERROR] => Expired/Forbidden request!
-[2022-08-07 17:43:01] - [ERROR] => jwt expired
-[2022-08-07 17:43:01] - [ERROR] => Expired/Forbidden request!
-[2022-08-07 17:46:59] - [ERROR] => Found non-callable @@iterator
-[2022-08-07 17:47:39] - [ERROR] => Found non-callable @@iterator
-[2022-08-07 17:48:53] - [ERROR] => Found non-callable @@iterator
-[2022-08-07 18:02:07] - [ERROR] => Found non-callable @@iterator
-[2022-08-07 18:16:18] - [ERROR] => MongoDB connection error => MongoNetworkError: Client network socket disconnected before secure TLS connection was established
-[2022-08-07 18:16:34] - [ERROR] => Operation `projects.insertOne()` buffering timed out after 10000ms
-[2022-08-07 18:18:17] - [ERROR] => MongoDB connection error => MongoNetworkError: Client network socket disconnected before secure TLS connection was established
-[2022-08-08 05:27:32] - [ERROR] => MongoDB connection error => MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
-[2022-08-08 06:03:04] - [ERROR] => MongoDB connection error => MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
-[2022-08-08 06:09:21] - [ERROR] => API path not found!
-[2022-08-08 06:16:28] - [ERROR] => API path not found!
-[2022-08-08 06:51:01] - [ERROR] => response_payload is not defined
-[2022-08-08 06:51:49] - [ERROR] => Bad request!
-[2022-08-08 06:52:29] - [ERROR] => Bad request!
-[2022-08-08 08:12:05] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-08-08 08:19:55] - [ERROR] => Bad request!
-[2022-08-08 08:22:56] - [ERROR] => Bad request!
-[2022-08-08 08:24:22] - [ERROR] => Bad request!
-[2022-08-08 08:25:14] - [ERROR] => Bad request!
-[2022-08-08 08:26:08] - [ERROR] => Bad request!
-[2022-08-08 08:27:37] - [ERROR] => Bad request!
-[2022-08-08 08:29:49] - [ERROR] => Bad request!
-[2022-08-08 08:32:13] - [ERROR] => Cannot destructure property 'image' of 'req.files' as it is undefined.
-[2022-08-08 08:33:16] - [ERROR] => Cannot destructure property 'image' of 'req.files' as it is undefined.
-[2022-08-08 18:26:12] - [ERROR] => Bad request!
-[2022-08-08 18:27:15] - [ERROR] => response_payload is not defined
-[2022-08-08 18:28:33] - [ERROR] => response_payload is not defined
-[2022-08-08 18:32:11] - [ERROR] => Bad request!
-[2022-08-08 20:16:07] - [ERROR] => Bad request!
-[2022-08-08 20:16:57] - [ERROR] => Bad request!
-[2022-08-08 20:17:54] - [ERROR] => Bad request!
-[2022-08-08 20:19:51] - [ERROR] => Bad request!
-[2022-08-08 20:20:33] - [ERROR] => Bad request!
-[2022-08-08 20:26:23] - [ERROR] => Bad request!
-[2022-08-08 20:44:53] - [ERROR] => Bad request!
-[2022-08-08 21:02:31] - [ERROR] => Bad request!
-[2022-08-08 21:03:09] - [ERROR] => Bad request!
-[2022-08-08 21:18:35] - [ERROR] => Bad request!
-[2022-08-09 02:09:22] - [ERROR] => Bad request!
-[2022-08-09 02:10:16] - [ERROR] => Bad request!
-[2022-08-09 02:10:19] - [ERROR] => Bad request!
-[2022-08-09 02:56:09] - [ERROR] => Cannot read property 'fileSize' of undefined
-[2022-08-09 03:20:23] - [ERROR] => Bad request!
-[2022-08-09 03:31:28] - [ERROR] => Bad request!
-[2022-08-09 04:42:45] - [ERROR] => Internal server error!
-[2022-08-09 08:21:45] - [ERROR] => jwt expired
-[2022-08-09 08:21:45] - [ERROR] => Expired/Forbidden request!
-[2022-08-09 10:21:43] - [ERROR] => fetch is not defined
-[2022-08-09 10:58:00] - [ERROR] => imageObj is not defined
-[2022-08-09 12:03:54] - [ERROR] => Bad request!
-[2022-08-09 12:04:56] - [ERROR] => Bad request!
-[2022-08-09 12:05:37] - [ERROR] => Cannot read property 'set' of null
-[2022-08-09 12:07:32] - [ERROR] => Cannot read property 'set' of undefined
-[2022-08-09 14:59:09] - [ERROR] => Unexpected end of JSON input
-[2022-08-09 14:59:57] - [ERROR] => Unexpected token u in JSON at position 0
-[2022-08-09 16:08:25] - [ERROR] => Bad request!
-[2022-08-09 16:24:40] - [ERROR] => API path not found!
-[2022-08-09 16:26:02] - [ERROR] => API path not found!
-[2022-08-09 22:22:31] - [ERROR] => Cast to ObjectId failed for value "62f26762f2dacd571df0a4790e64da" (type string) at path "_id" for model "User"
-[2022-08-09 22:30:06] - [ERROR] => User.if is not a function
-[2022-08-09 23:10:37] - [ERROR] => API path not found!
-[2022-08-09 23:10:41] - [ERROR] => API path not found!
-[2022-08-09 23:11:45] - [ERROR] => API path not found!
-[2022-08-09 23:15:03] - [ERROR] => API path not found!
-[2022-08-09 23:21:35] - [ERROR] => API path not found!
-[2022-08-10 06:34:37] - [ERROR] => MongoDB connection error => MongooseServerSelectionError: Server selection timed out after 30000 ms
-[2022-08-10 07:14:36] - [ERROR] => API path not found!
-[2022-08-10 07:34:34] - [ERROR] => Bad request!
-[2022-08-10 07:35:48] - [ERROR] => Bad request!
-[2022-08-10 07:36:17] - [ERROR] => Bad request!
-[2022-08-10 07:38:19] - [ERROR] => Bad request!
-[2022-08-10 07:38:22] - [ERROR] => Bad request!
-[2022-08-10 07:38:29] - [ERROR] => Bad request!
-[2022-08-10 07:38:32] - [ERROR] => Bad request!
-[2022-08-10 07:54:16] - [ERROR] => Bad request!
-[2022-08-10 07:54:42] - [ERROR] => Bad request!
-[2022-08-10 07:55:17] - [ERROR] => Bad request!
-[2022-08-10 07:57:30] - [ERROR] => Bad request!
-[2022-08-10 08:02:59] - [ERROR] => Bad request!
-[2022-08-10 09:08:43] - [ERROR] => Todo validation failed: category: `ongoings` is not a valid enum value for path `category`.
-[2022-08-10 09:11:54] - [ERROR] => Todo validation failed: category: Enter a valid category
-[2022-08-10 09:12:54] - [ERROR] => Todo validation failed: category: Enter a valid category
-[2022-08-10 09:15:31] - [ERROR] => Todo validation failed: category: Enter a valid category
-[2022-08-10 09:24:49] - [ERROR] => Cannot read property 'body_payload' of undefined
-[2022-08-10 09:25:16] - [ERROR] => Bad request!
-[2022-08-10 09:49:52] - [ERROR] => Bad request!
-[2022-08-10 09:51:21] - [ERROR] => Bad request!
-[2022-08-10 09:52:18] - [ERROR] => Bad request!
-[2022-08-10 09:54:21] - [ERROR] => Bad request!
-[2022-08-10 10:43:05] - [ERROR] => Cannot populate path `-role` because it is not in your schema. Set the `strictPopulate` option to false to override.
-[2022-08-10 10:48:29] - [ERROR] => Schema hasn't been registered for model "-createdAt".
-Use mongoose.model(name, schema)
-[2022-08-10 13:07:09] - [ERROR] => API path not found!
-[2022-08-10 13:07:12] - [ERROR] => API path not found!
+[2022-08-22 07:47:09] - [ERROR] => [object Object]
+[2022-08-22 07:47:09] - [ERROR] => Bad request!
+[2022-08-22 07:50:38] - [ERROR] => public_id is not defined
+[2022-08-22 09:27:31] - [ERROR] => API path not found!
+[2022-08-22 09:27:31] - [ERROR] => API path not found!
+[2022-08-22 10:19:23] - [ERROR] => API path not found!
+[2022-08-22 10:19:23] - [ERROR] => API path not found!
+[2022-08-22 10:19:55] - [ERROR] => API path not found!
+[2022-08-22 10:19:55] - [ERROR] => API path not found!
+[2022-08-22 16:51:04] - [ERROR] => API path not found!
+[2022-08-22 16:51:04] - [ERROR] => API path not found!
+[2022-08-22 16:54:40] - [ERROR] => API path not found!
+[2022-08-22 16:54:41] - [ERROR] => API path not found!
+[2022-08-22 17:01:11] - [ERROR] => API path not found!
+[2022-08-22 17:01:12] - [ERROR] => API path not found!
+[2022-08-22 17:02:54] - [ERROR] => API path not found!
+[2022-08-22 17:02:54] - [ERROR] => API path not found!
+[2022-08-22 17:03:54] - [ERROR] => API path not found!
+[2022-08-22 17:03:54] - [ERROR] => API path not found!
+[2022-08-22 17:20:01] - [ERROR] => API path not found!
+[2022-08-22 17:20:01] - [ERROR] => API path not found!
+[2022-08-22 17:20:27] - [ERROR] => API path not found!
+[2022-08-22 17:20:27] - [ERROR] => API path not found!
+[2022-08-22 17:25:42] - [ERROR] => API path not found!
+[2022-08-22 17:25:42] - [ERROR] => API path not found!
+[2022-08-22 17:26:31] - [ERROR] => API path not found!
+[2022-08-22 17:26:31] - [ERROR] => API path not found!
+[2022-08-22 17:41:00] - [ERROR] => Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Project"
+[2022-08-22 17:41:00] - [ERROR] => Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Project"
+[2022-08-23 05:57:03] - [ERROR] => data and hash arguments required
+[2022-08-23 05:59:21] - [ERROR] => jwt expired
+[2022-08-23 05:59:21] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:51] - [ERROR] => jwt expired
+[2022-08-23 07:42:51] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:51] - [ERROR] => jwt expired
+[2022-08-23 07:42:51] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:51] - [ERROR] => jwt expired
+[2022-08-23 07:42:51] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:51] - [ERROR] => jwt expired
+[2022-08-23 07:42:51] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:56] - [ERROR] => data and hash arguments required
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:52] - [ERROR] => data and hash arguments required
+[2022-08-26 08:08:14] - [ERROR] => jwt expired
+[2022-08-26 08:08:14] - [ERROR] => Expired/Forbidden request!
+[2022-08-26 08:08:14] - [ERROR] => jwt expired
+[2022-08-26 08:08:14] - [ERROR] => Expired/Forbidden request!
+[2022-08-26 08:08:19] - [ERROR] => data and hash arguments required
+[2022-08-28 23:26:22] - [ERROR] => jwt expired
+[2022-08-28 23:26:22] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:22] - [ERROR] => jwt expired
+[2022-08-28 23:26:22] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:22] - [ERROR] => jwt expired
+[2022-08-28 23:26:22] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:23] - [ERROR] => jwt expired
+[2022-08-28 23:26:23] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:23] - [ERROR] => jwt expired
+[2022-08-28 23:26:23] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:23] - [ERROR] => jwt expired
+[2022-08-28 23:26:23] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:43] - [ERROR] => data and hash arguments required
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:04:03] - [ERROR] => data and hash arguments required
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-07 21:20:16] - [ERROR] => data and hash arguments required
+[2022-09-08 22:42:57] - [ERROR] => jwt expired
+[2022-09-08 22:42:57] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:57] - [ERROR] => jwt expired
+[2022-09-08 22:42:57] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:57] - [ERROR] => jwt expired
+[2022-09-08 22:42:57] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:58] - [ERROR] => jwt expired
+[2022-09-08 22:42:58] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:58] - [ERROR] => jwt expired
+[2022-09-08 22:42:58] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:58] - [ERROR] => jwt expired
+[2022-09-08 22:42:58] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:43:08] - [ERROR] => data and hash arguments required
+[2022-09-10 09:44:17] - [ERROR] => jwt expired
+[2022-09-10 09:44:18] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:18] - [ERROR] => jwt expired
+[2022-09-10 09:44:18] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:18] - [ERROR] => jwt expired
+[2022-09-10 09:44:18] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:19] - [ERROR] => jwt expired
+[2022-09-10 09:44:19] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:19] - [ERROR] => jwt expired
+[2022-09-10 09:44:19] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:19] - [ERROR] => jwt expired
+[2022-09-10 09:44:19] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:32] - [ERROR] => data and hash arguments required
+[2022-09-11 12:19:45] - [ERROR] => jwt expired
+[2022-09-11 12:19:46] - [ERROR] => Expired/Forbidden request!
+[2022-09-11 12:19:46] - [ERROR] => jwt expired
+[2022-09-11 12:19:46] - [ERROR] => Expired/Forbidden request!
+[2022-09-11 12:19:46] - [ERROR] => jwt expired
+[2022-09-11 12:19:46] - [ERROR] => Expired/Forbidden request!
+[2022-09-11 12:19:46] - [ERROR] => jwt expired
+[2022-09-11 12:19:46] - [ERROR] => Expired/Forbidden request!
+[2022-09-11 12:19:58] - [ERROR] => data and hash arguments required
+[2022-09-20 09:48:38] - [ERROR] => data and hash arguments required
+[2022-09-23 10:24:46] - [ERROR] => data and hash arguments required
+[2022-11-15 00:12:23] - [ERROR] => RedisDB connection error => Error: getaddrinfo ENOTFOUND redis
+[2022-11-15 00:12:25] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:27] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:32] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:34] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:36] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:38] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:40] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:42] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:43] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:45] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:47] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:49] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:13:01] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:13:03] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:16:33] - [ERROR] => MongoDB connection error => Error: queryTxt ETIMEOUT cluster0.urrgt.mongodb.net
+[2022-11-15 00:16:35] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:16:35] - [ERROR] => MongoDB connection error => Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-11-15 00:16:37] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:10] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:12] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:14] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:16] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:18] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:20] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:22] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:24] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:25] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:27] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:29] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:31] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:03] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:05] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:06] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:08] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:10] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:12] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:17] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:19] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:20] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:22] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:43] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:45] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:45] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:47] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:47] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:49] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:49] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:51] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:51] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:53] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:53] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:55] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:55] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:57] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:57] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:59] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:59] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:01] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:01] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:03] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:03] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:05] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:06] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:08] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:08] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:10] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:10] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:12] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:12] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:14] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:14] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:16] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:16] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:18] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:18] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:20] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:20] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:22] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:22] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:24] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:24] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:26] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:26] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:28] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:28] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:30] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:30] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:32] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:32] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:34] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:34] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:36] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:36] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:38] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:38] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:40] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:40] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:42] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:42] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:44] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:44] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:46] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:46] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:48] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:48] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:50] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:50] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:52] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:52] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:54] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:54] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:56] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:56] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:58] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:58] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:39:00] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:41:04] - [ERROR] => Bad request!
+[2022-12-28 08:41:25] - [ERROR] => Bad request!
+[2023-01-17 10:57:34] - [ERROR] => data and hash arguments required
