@@ -44,7 +44,7 @@ const todoSchema = new Schema(
       default: new Date(),
     },
   },
-  { timestamps: true }
+  { timestamps: true, toJSON: { virtuals: true }, toObject: { virtuals: true } }
 );
 
 const Todo = model("Todo", todoSchema);

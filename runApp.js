@@ -10,8 +10,8 @@ const logger = require("./logger/appLogger");
 const runApp = async (app) => {
   try {
     /* Connecting to the database. */
-    await mongoDB();
-    await redisDB();
+    mongoDB();
+    redisDB();
 
     /* Listening to the port and logging the message. */
     app.listen(APP_PORT, () =>

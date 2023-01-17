@@ -10,12 +10,7 @@ const runApp = require("./runApp");
 /* Loading initial middlewares. */
 loadInitialMiddleware(app, express);
 
-/* Loading application routes */
-app.get("/v1/", (req, res) => {
-  console.log("Server hit");
-  res.send("Welcome on board..");
-});
-
+/* Loading all the routes of the application. */
 loadAppRoutes(app);
 
 /* Loading final middlewares. */

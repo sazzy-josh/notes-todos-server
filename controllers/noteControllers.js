@@ -11,9 +11,26 @@ const Note = require("../models/noteModels");
  ********************************************************************/
 const fetchNoteByProject = asyncWrapper(async (req, res, next) => {
   const { project_id: projectId } = req.params;
+  const { search } = req.query;
+
   const current_user_id = await authService.getCurrentUserId(req.headers);
 
-  const data = await Note.find({ userId: current_user_id, projectId });
+  let filter_query = search
+    ? {
+        $or: [
+          { title: new RegExp(search, "i") },
+          { content: new RegExp(search, "i") },
+          { theme: new RegExp(search, "i") },
+          { labels: new RegExp(search, "i") },
+        ],
+      }
+    : {};
+
+  const data = await Note.find({
+    userId: current_user_id,
+    projectId,
+    ...filter_query,
+  });
 
   /* A function that returns a response to the user. */
   respondWith(res, apiStatus.success(), {
@@ -27,13 +44,14 @@ const fetchNoteByProject = asyncWrapper(async (req, res, next) => {
  ************************************************************/
 const createNoteItem = asyncWrapper(async (req, res, next) => {
   const { project_id: projectId } = req.params;
-  const { title, content, labels } = req.body;
+  const { title, content, labels, theme } = req.body;
   const current_user_id = await authService.getCurrentUserId(req.headers);
 
   let data = await Note.create({
     title,
     content,
     labels,
+    theme,
     projectId,
     userId: current_user_id,
   });
@@ -50,11 +68,11 @@ const createNoteItem = asyncWrapper(async (req, res, next) => {
  **********************************************************/
 const updateNoteItem = asyncWrapper(async (req, res, next) => {
   const { note_id } = req.params;
-  const { title, content, labels } = req.body;
+  const { title, content, labels, theme } = req.body;
 
   const data = await Note.findByIdAndUpdate(
     note_id,
-    { title, content, labels },
+    { title, content, labels, theme },
     { new: true }
   );
 

@@ -25,19 +25,19 @@ class fileService {
       await filepath.mv(imagePath);
     } catch (e) {
       next(apiStatus.badRequest("Unable to process image"));
-      return true;
+      return false;
     }
 
     try {
       await sharp(imagePath)
-        .resize(this.#image_dimension)
+        // .resize(this.#image_dimension)
         .jpeg({ quality: 80, chromaSubsampling: "4:4:4" })
         .toFile(compressedPath);
 
       return compressedPath;
     } catch (error) {
       next(apiStatus.badRequest("Unable to compress image"));
-      return true;
+      return false;
     }
   }
 
@@ -71,20 +71,21 @@ class fileService {
    */
   async fileUpload(file, next) {
     try {
-      let compressedImage = await this.resizeImage(file, next);
-      let result = await cloudinary.uploader.upload(compressedImage, {
+      // let compressedImage = await this.resizeImage(file, next);
+
+      let result = await cloudinary.uploader.upload(file, {
         upload_preset: "nothy_images",
       });
 
-      await this.removeUploadedImageServerFile(
-        path.join(__dirname, `../views/tmp`)
-      );
+      // await this.removeUploadedImageServerFile(
+      //   path.join(__dirname, `../views/tmp`)
+      // );
 
       return result;
     } catch (error) {
       logger.error(error);
       next(apiStatus.badRequest("Unable to upload image"));
-      return true;
+      return false;
     }
   }
 }

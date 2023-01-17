@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2022-06-30 09:36:22] - [ERROR] => MongoDB connection error => Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.urrgt.mongodb.net
 [2022-06-30 10:43:44] - [ERROR] => httpResponse is not defined
 [2022-06-30 10:44:18] - [ERROR] => Cannot read property 'error' of undefined
@@ -502,3 +503,260 @@ Use mongoose.model(name, schema)
 [2023-01-17 10:58:57] - [ERROR] => API path not found!
 [2023-01-17 10:59:04] - [ERROR] => API path not found!
 [2023-01-17 10:59:05] - [ERROR] => API path not found!
+=======
+[2022-08-22 07:47:09] - [ERROR] => [object Object]
+[2022-08-22 07:47:09] - [ERROR] => Bad request!
+[2022-08-22 07:50:38] - [ERROR] => public_id is not defined
+[2022-08-22 09:27:31] - [ERROR] => API path not found!
+[2022-08-22 09:27:31] - [ERROR] => API path not found!
+[2022-08-22 10:19:23] - [ERROR] => API path not found!
+[2022-08-22 10:19:23] - [ERROR] => API path not found!
+[2022-08-22 10:19:55] - [ERROR] => API path not found!
+[2022-08-22 10:19:55] - [ERROR] => API path not found!
+[2022-08-22 16:51:04] - [ERROR] => API path not found!
+[2022-08-22 16:51:04] - [ERROR] => API path not found!
+[2022-08-22 16:54:40] - [ERROR] => API path not found!
+[2022-08-22 16:54:41] - [ERROR] => API path not found!
+[2022-08-22 17:01:11] - [ERROR] => API path not found!
+[2022-08-22 17:01:12] - [ERROR] => API path not found!
+[2022-08-22 17:02:54] - [ERROR] => API path not found!
+[2022-08-22 17:02:54] - [ERROR] => API path not found!
+[2022-08-22 17:03:54] - [ERROR] => API path not found!
+[2022-08-22 17:03:54] - [ERROR] => API path not found!
+[2022-08-22 17:20:01] - [ERROR] => API path not found!
+[2022-08-22 17:20:01] - [ERROR] => API path not found!
+[2022-08-22 17:20:27] - [ERROR] => API path not found!
+[2022-08-22 17:20:27] - [ERROR] => API path not found!
+[2022-08-22 17:25:42] - [ERROR] => API path not found!
+[2022-08-22 17:25:42] - [ERROR] => API path not found!
+[2022-08-22 17:26:31] - [ERROR] => API path not found!
+[2022-08-22 17:26:31] - [ERROR] => API path not found!
+[2022-08-22 17:41:00] - [ERROR] => Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Project"
+[2022-08-22 17:41:00] - [ERROR] => Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Project"
+[2022-08-23 05:57:03] - [ERROR] => data and hash arguments required
+[2022-08-23 05:59:21] - [ERROR] => jwt expired
+[2022-08-23 05:59:21] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:51] - [ERROR] => jwt expired
+[2022-08-23 07:42:51] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:51] - [ERROR] => jwt expired
+[2022-08-23 07:42:51] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:51] - [ERROR] => jwt expired
+[2022-08-23 07:42:51] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:51] - [ERROR] => jwt expired
+[2022-08-23 07:42:51] - [ERROR] => Expired/Forbidden request!
+[2022-08-23 07:42:56] - [ERROR] => data and hash arguments required
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:45] - [ERROR] => jwt expired
+[2022-08-25 06:04:45] - [ERROR] => Expired/Forbidden request!
+[2022-08-25 06:04:52] - [ERROR] => data and hash arguments required
+[2022-08-26 08:08:14] - [ERROR] => jwt expired
+[2022-08-26 08:08:14] - [ERROR] => Expired/Forbidden request!
+[2022-08-26 08:08:14] - [ERROR] => jwt expired
+[2022-08-26 08:08:14] - [ERROR] => Expired/Forbidden request!
+[2022-08-26 08:08:19] - [ERROR] => data and hash arguments required
+[2022-08-28 23:26:22] - [ERROR] => jwt expired
+[2022-08-28 23:26:22] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:22] - [ERROR] => jwt expired
+[2022-08-28 23:26:22] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:22] - [ERROR] => jwt expired
+[2022-08-28 23:26:22] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:23] - [ERROR] => jwt expired
+[2022-08-28 23:26:23] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:23] - [ERROR] => jwt expired
+[2022-08-28 23:26:23] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:23] - [ERROR] => jwt expired
+[2022-08-28 23:26:23] - [ERROR] => Expired/Forbidden request!
+[2022-08-28 23:26:43] - [ERROR] => data and hash arguments required
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:01:37] - [ERROR] => jwt expired
+[2022-09-04 12:01:37] - [ERROR] => Expired/Forbidden request!
+[2022-09-04 12:04:03] - [ERROR] => data and hash arguments required
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-06 07:38:50] - [ERROR] => jwt expired
+[2022-09-06 07:38:50] - [ERROR] => Expired/Forbidden request!
+[2022-09-07 21:20:16] - [ERROR] => data and hash arguments required
+[2022-09-08 22:42:57] - [ERROR] => jwt expired
+[2022-09-08 22:42:57] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:57] - [ERROR] => jwt expired
+[2022-09-08 22:42:57] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:57] - [ERROR] => jwt expired
+[2022-09-08 22:42:57] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:58] - [ERROR] => jwt expired
+[2022-09-08 22:42:58] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:58] - [ERROR] => jwt expired
+[2022-09-08 22:42:58] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:42:58] - [ERROR] => jwt expired
+[2022-09-08 22:42:58] - [ERROR] => Expired/Forbidden request!
+[2022-09-08 22:43:08] - [ERROR] => data and hash arguments required
+[2022-09-10 09:44:17] - [ERROR] => jwt expired
+[2022-09-10 09:44:18] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:18] - [ERROR] => jwt expired
+[2022-09-10 09:44:18] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:18] - [ERROR] => jwt expired
+[2022-09-10 09:44:18] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:19] - [ERROR] => jwt expired
+[2022-09-10 09:44:19] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:19] - [ERROR] => jwt expired
+[2022-09-10 09:44:19] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:19] - [ERROR] => jwt expired
+[2022-09-10 09:44:19] - [ERROR] => Expired/Forbidden request!
+[2022-09-10 09:44:32] - [ERROR] => data and hash arguments required
+[2022-09-11 12:19:45] - [ERROR] => jwt expired
+[2022-09-11 12:19:46] - [ERROR] => Expired/Forbidden request!
+[2022-09-11 12:19:46] - [ERROR] => jwt expired
+[2022-09-11 12:19:46] - [ERROR] => Expired/Forbidden request!
+[2022-09-11 12:19:46] - [ERROR] => jwt expired
+[2022-09-11 12:19:46] - [ERROR] => Expired/Forbidden request!
+[2022-09-11 12:19:46] - [ERROR] => jwt expired
+[2022-09-11 12:19:46] - [ERROR] => Expired/Forbidden request!
+[2022-09-11 12:19:58] - [ERROR] => data and hash arguments required
+[2022-09-20 09:48:38] - [ERROR] => data and hash arguments required
+[2022-09-23 10:24:46] - [ERROR] => data and hash arguments required
+[2022-11-15 00:12:23] - [ERROR] => RedisDB connection error => Error: getaddrinfo ENOTFOUND redis
+[2022-11-15 00:12:25] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:27] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:32] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:34] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:36] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:38] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:40] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:42] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:43] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:45] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:12:47] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:12:49] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:13:01] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:13:03] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:16:33] - [ERROR] => MongoDB connection error => Error: queryTxt ETIMEOUT cluster0.urrgt.mongodb.net
+[2022-11-15 00:16:35] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:16:35] - [ERROR] => MongoDB connection error => Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-11-15 00:16:37] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:10] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:12] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:14] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:16] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:18] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:20] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:22] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:24] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:25] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:27] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:17:29] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:17:31] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:03] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:05] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:06] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:08] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:10] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:12] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:17] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:19] - [ERROR] => Restarting Mongo server
+[2022-11-15 00:18:20] - [ERROR] => MongoDB connection error => MongoServerError: bad auth : Authentication failed.
+[2022-11-15 00:18:22] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:43] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:45] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:45] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:47] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:47] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:49] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:49] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:51] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:51] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:53] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:53] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:55] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:55] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:57] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:57] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:37:59] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:37:59] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:01] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:01] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:03] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:03] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:05] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:06] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:08] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:08] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:10] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:10] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:12] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:12] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:14] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:14] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:16] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:16] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:18] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:18] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:20] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:20] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:22] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:22] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:24] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:24] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:26] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:26] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:28] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:28] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:30] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:30] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:32] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:32] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:34] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:34] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:36] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:36] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:38] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:38] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:40] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:40] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:42] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:42] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:44] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:44] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:46] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:46] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:48] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:48] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:50] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:50] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:52] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:52] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:54] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:54] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:56] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:56] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:38:58] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:38:58] - [ERROR] => MongoDB connection error => Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.urrgt.mongodb.net
+[2022-12-28 08:39:00] - [ERROR] => Restarting Mongo server
+[2022-12-28 08:41:04] - [ERROR] => Bad request!
+[2022-12-28 08:41:25] - [ERROR] => Bad request!
+[2023-01-17 10:57:34] - [ERROR] => data and hash arguments required
+>>>>>>> 639791dacffb7a3880c969519749218254498ff9

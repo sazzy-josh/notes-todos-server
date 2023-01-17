@@ -1,5 +1,6 @@
 const path = require("path");
 const cors = require("cors");
+const compression = require("compression");
 const rateLimiter = require("express-rate-limit");
 const fileUpload = require("express-fileupload");
 const httpLogger = require("../logger/httpLogger");
@@ -33,12 +34,13 @@ const fileUploadLimit = {
  */
 const loadInitialMiddleware = (app, express) => {
   app.set("trust proxy", true);
+  app.use(compression());
   app.use(fileUpload(fileUploadLimit));
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 
   app.use(cors(setupCORSOptions));
-  app.use(rateLimiter(setupRateLimiterOptions));
+  // app.use(rateLimiter(setupRateLimiterOptions));
 
   app.use(express.static(path.join(__dirname, "views")));
   app.use(httpLogger("../logs/httpErrorLogs.log", true));

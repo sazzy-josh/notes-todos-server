@@ -3,9 +3,10 @@
  **********************************************************/
 const { apiStatus, respondWith } = require("../services/httpResponseService");
 const authService = require("../services/authService");
+const asyncWrapper = require("../utils/asyncWrapper");
+const { PER_PAGE } = require("../config");
 
 const Project = require("../models/projectModels");
-const asyncWrapper = require("../utils/asyncWrapper");
 
 /**********************************************************
  *  This is a controller that handles project creation
@@ -26,14 +27,43 @@ const createProject = asyncWrapper(async (req, res, next) => {
  *  This is a controller that handles fetching of project
  **********************************************************/
 const fetchProject = asyncWrapper(async (req, res, next) => {
-  /* Fetch all projects created by current user */
+  let { page = 1, search } = req.query;
+  let page_offset = (page - 1) * PER_PAGE;
+
+  /* Getting the current user id from the request header. */
   const auth_user_id = await authService.getCurrentUserId(req.headers);
-  const data = await Project.find({ userId: auth_user_id });
+
+  /* A query that is used to filter users based on the search query. */
+  let filter_query = search
+    ? {
+        $and: [
+          {
+            $or: [
+              { title: new RegExp(search, "i") },
+              { description: new RegExp(search, "i") },
+            ],
+          },
+          { userId: auth_user_id },
+        ],
+      }
+    : { userId: auth_user_id };
+
+  /* Fetch all projects created by current user */
+  let [total, projects] = await Promise.all([
+    Project.countDocuments(filter_query),
+    Project.find(filter_query)
+      .populate("todos")
+      .populate("notes")
+      .sort("-createdAt")
+      .limit(PER_PAGE)
+      .skip(page_offset)
+      .select("-updatedAt -archived -userId -id"),
+  ]);
 
   /* A function that returns a response to the user. */
   respondWith(res, apiStatus.success(), {
     message: "Project fetched successfully",
-    data,
+    ...authService.renderPaginatedPayload(projects, { total, page }),
   });
 });
 

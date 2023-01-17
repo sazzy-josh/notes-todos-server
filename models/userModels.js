@@ -1,6 +1,5 @@
 const { Schema, model } = require("mongoose");
-const logger = require("../logger/appLogger");
-const Project = require("./projectModels");
+const mongoosePaginate = require("mongoose-paginate");
 
 const userSchema = new Schema(
   {
@@ -56,16 +55,41 @@ const userSchema = new Schema(
       default: new Date(),
     },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+    versionKey: false,
+    selectPopulatedPaths: false,
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true },
+  }
 );
+
+userSchema.virtual("projects", {
+  ref: "Project",
+  localField: "_id",
+  foreignField: "userId",
+  count: true,
+});
+
+userSchema.virtual("todos", {
+  ref: "Todo",
+  localField: "_id",
+  foreignField: "userId",
+  count: true,
+});
+
+userSchema.virtual("notes", {
+  ref: "Note",
+  localField: "_id",
+  foreignField: "userId",
+  count: true,
+});
+
+userSchema.plugin(mongoosePaginate);
 
 userSchema.statics.findOneByEmail = function (email) {
   return this.where({ email });
 };
-
-userSchema.virtual("getPicture").get(function () {
-  return this.picture ? JSON.parse(this.picture) : null;
-});
 
 const User = model("User", userSchema);
 
